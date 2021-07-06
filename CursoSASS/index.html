@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Curso SASS</title>
+  </head>
+  <body>
+    <h2 class="titulo">Hola que tal</h2>
+
+    <!-- Parte 1 -->
+
+    <div class="container">
+      <ul>
+        <li>
+          SASS va en herencia, por lo que podemos declarar clases de hijos que
+          esten dentro de un padre
+        </li>
+        <li>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          similique totam numquam in, amet quidem obcaecati modi doloribus ipsa
+          temporibus maiores quos doloremque, tempora tenetur dignissimos?
+          Pariatur iusto ab voluptas!
+        </li>
+        <li>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+          similique totam numquam in, amet quidem obcaecati modi doloribus ipsa
+          temporibus maiores quos doloremque, tempora tenetur dignissimos?
+          Pariatur iusto ab voluptas!
+        </li>
+      </ul>
+    </div>
+
+    <!-- Parte 2 -->
+
+    <h2>Se pueden hacer variables</h2>
+
+    <p>para declarar una varibale se usa el signo $</p>
+
+    <h2>Mixins</h2>
+
+    <p>se declara como @mixin (nombre del mixin) (parametros) {codigo}</p>
+
+    <p>
+      @include (nombre del mixin): esto hace que al elemento que le apliquemos
+      estilos, se le apliquen los estilos del mixin que queramos
+    </p>
+
+    <div class="prueba">prueba mixin</div>
+    <div class="prueba">prueba mixin</div>
+    <div class="prueba">prueba mixin</div>
+    <div class="prueba">prueba mixin</div>
+
+    <!-- Parte 3 -->
+
+    <div class="container3">
+      <h2>parte 3</h2>
+
+      <h2>Condicionales</h2>
+
+      <p>
+        Se declara con @if: la condicion no va entre parentesis pero la
+        ejecucion entre corchetes
+      </p>
+      <p>@else if: es un else if de javascript</p>
+      <p>@else: un else de javascript</p>
+    </div>
+
+    <div class="circulos">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="texto-1">Hello world</div>
+    <div class="texto-2">Hello world</div>
+    <div class="texto-3">Hello world</div>
+    <div class="texto-4">Hello world</div>
+
+    <!-- Parte 4 -->
+
+    <p>@debug (variable): un console.log de js</p>
+    <p>@debug type-of (variable): muestra el tipo de dato</p>
+    <p>el &: indica el selector padre</p>
+
+    <div class="hoverP"></div>
+    <div class="hoverP"></div>
+    <div class="hoverP"></div>
+    <div class="hoverP"></div>
+    <div class="hoverP"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
